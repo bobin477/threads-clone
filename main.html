@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icon Navigation</title>
+    <link rel="stylesheet" href="main.css" />
+    <!-- Font Awesome để có icon -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <!-- Logo -->
+      <div class="logo">
+        <i class="fa-solid fa-rocket"></i>
+      </div>
+
+      <!-- nav -->
+      <nav class="menu">
+        <a href="#home"><i class="fa-solid fa-house"></i></a>
+        <a href="#about"><i class="fa-solid fa-user"></i></a>
+        <a class='add' href="#about"><i class="fa-solid fa-plus"></i></i></a>
+        <a href="#services"><i class="fa-solid fa-cogs"></i></a>
+        <a href="#contact"><i class="fa-solid fa-phone"></i></a>
+      </nav>
+
+      <!-- Profile -->
+      <div class="profile">
+        <i class="fa-solid fa-circle-user" id="profile-icon"></i>
+        <!-- Popup Menu -->
+        <div class="popup-menu" id="popup-menu">
+          <a href="#view-profile">Giao diên</a>
+          <a href="#view-profile">Thông tin chi tiết</a>
+          <a href="#logout">Cài đặt</a>
+          <hr>
+          <a href="#view-profile">Báo Cáo sự cố</a>
+          <a href="#logout">Đăng Xuất</a>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

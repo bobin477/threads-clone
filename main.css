@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  background-color: #f4f4f9;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 80px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+/* Logo */
+.logo {
+  font-size: 30px;
+  color: black;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #aca8a8;
+  font-size: 20px;
+  padding: 10px;
+}
+.menu .add {
+  padding: 10px;
+  background-color: rgba(239, 234, 234, 0.772);
+  border-radius: 10px;
+}
+
+.menu a:hover {
+  padding: 10px;
+  background-color: rgba(239, 234, 234, 0.772);
+  border-radius: 10px;
+}
+
+/* Profile */
+.profile {
+  position: relative;
+  font-size: 30px;
+  cursor: pointer;
+  color: #aca8a8;
+}
+
+/* Popup Menu */
+.popup-menu {
+  display: none;
+  position: absolute;
+  bottom: 40px;
+  right: -180px;
+  width: 190px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+
+  z-index: 100;
+  padding: 5px 5px;
+}
+
+.popup-menu a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.popup-menu a:hover {
+  background-color: #f4f4f9;
+  border-radius: 10px;
+}
