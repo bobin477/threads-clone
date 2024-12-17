@@ -42,6 +42,9 @@ body {
   background-color: rgba(239, 234, 234, 0.772);
   border-radius: 10px;
 }
+.menu a .add:hover {
+  color: black;
+}
 
 .menu a i:hover {
   padding: 15px;
@@ -58,16 +61,19 @@ body {
 }
 
 /* Popup Menu */
+.profile i:hover {
+  color: black;
+}
+
 .popup-menu {
   display: none;
   position: absolute;
-  bottom: 40px;
-  right: -180px;
+  bottom: 0px;
+  right: -170px;
   width: 190px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-
   z-index: 100;
   padding: 5px 5px;
 }
