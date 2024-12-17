@@ -27,29 +27,32 @@ body {
 .menu {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1rem;
 }
 
-.menu a i {
+.menu .menu-item i {
   text-decoration: none;
   color: #aca8a8;
   font-size: 20px;
-  padding: 15px;
 }
 
-.menu a .add {
-  padding: 15px;
+.menu .menu-item.add {
   background-color: rgba(239, 234, 234, 0.772);
   border-radius: 10px;
 }
-.menu a .add:hover {
+
+.menu .menu-item .add:hover {
   color: black;
 }
 
-.menu a i:hover {
-  padding: 15px;
-  background-color: rgba(239, 234, 234, 0.772);
+.menu .menu-item {
   border-radius: 10px;
+  padding: 15px;
+}
+
+.menu .menu-item:hover {
+  background-color: rgba(239, 234, 234, 0.772);
 }
 
 /* Profile */
