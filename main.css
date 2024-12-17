@@ -1,9 +1,11 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   display: flex;
   height: 100vh;
   background-color: #f4f4f9;
+  box-sizing: border-box;
 }
 
 /* Sidebar */
@@ -34,7 +36,7 @@ body {
 .menu .menu-item i {
   text-decoration: none;
   color: #aca8a8;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .menu .menu-item.add {
@@ -48,7 +50,8 @@ body {
 
 .menu .menu-item {
   border-radius: 10px;
-  padding: 15px;
+  padding: 18px;
+  cursor: pointer;
 }
 
 .menu .menu-item:hover {
@@ -64,9 +67,9 @@ body {
 }
 
 /* Popup Menu */
-.profile i:hover {
+/* .profile i:hover {
   color: black;
-}
+} */
 
 .popup-menu {
   display: none;
@@ -78,18 +81,22 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   z-index: 100;
-  padding: 5px 5px;
+  padding: 10px 10px;
+}
+
+.popup-menu .popup-menu-item {
+  margin: 5px;
+  padding: 15px 10px;
 }
 
 .popup-menu a {
   display: block;
-  padding: 10px 15px;
-  text-decoration: none;
   color: #333;
+  text-decoration: none;
   font-size: 1rem;
 }
 
-.popup-menu a:hover {
+.popup-menu .popup-menu-item:hover {
   background-color: #f4f4f9;
   border-radius: 10px;
 }
