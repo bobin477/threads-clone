@@ -20,6 +20,7 @@ body {
 }
 
 /* Logo */
+
 .logo {
   font-size: 30px;
   color: black;
@@ -33,22 +34,26 @@ body {
   gap: 1rem;
 }
 
-.menu .menu-item i {
+.menu-item .active {
+  color: black;
+}
+
+.menu-item a {
   text-decoration: none;
   color: #aca8a8;
   font-size: 18px;
 }
 
-.menu .menu-item.add {
+.menu-item.add {
   background-color: rgba(239, 234, 234, 0.772);
   border-radius: 10px;
 }
 
-.menu .menu-item .add:hover {
+.menu-item .add:hover {
   color: black;
 }
 
-.menu .menu-item {
+.menu-item {
   border-radius: 10px;
   padding: 18px;
   cursor: pointer;
